@@ -1,13 +1,13 @@
-This is an example project showing how to dockerize a SpringBoot application
+<h2>This is an example project showing how to dockerize a SpringBoot application</h2>
 
-Make sure you have Docker installed and running on your environment.
-   $ docker -v
+<p> Make sure you have Docker installed and running on your environment. </p>
+<p> <code> $ docker -v </code> </p>
 
-Navigate to the root project directory where Dockerfile exists
-   $ cd /springbootdocker
+<p> Navigate to the root project directory where Dockerfile exists </p>
+<p> <code> $ cd /springbootdocker </code> </p>
 
-Build the image
-   $ docker image build -t springboot-image .
+<p> Build the image </p>
+<p> <code> $ docker image build -t springboot-image .  </code> </p>
 
-Run the container
-   $ docker container run --name springboot-container -p 8080:8080 springboot-image
+<p> Run the container </p>
+<p> <code> $ docker container run --name springboot-container -p 8080:8080 springboot-image </code> </p>
